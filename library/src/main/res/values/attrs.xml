@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="slip_point_view">
+        <attr name="count" format="integer" />
+        <attr name="expend_size" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="offset_size" format="dimension" />
+        <attr name="p_color" format="color" />
+        <attr name="mp_color" format="color" />
+    </declare-styleable>
+</resources>
