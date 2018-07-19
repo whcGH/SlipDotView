@@ -1,0 +1,13 @@
+*.iml
+.gradle
+.DS_Store
+build
+out
+local.properties
+
+# IntelliJ IDEA
+.idea
+/library/src/test
+/library/src/androidTest
+/app/src/androidTest
+/app/src/test/java/com/example/slipdotview
