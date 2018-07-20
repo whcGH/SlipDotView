@@ -163,7 +163,7 @@ public class SlipPointView extends View implements ViewPager.OnPageChangeListene
 
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-        currentPosition = position;
+        currentPosition = position % getCount();
         offset = positionOffset;
         invalidate();
     }
